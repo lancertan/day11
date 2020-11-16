@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'workshop';
+  //animals:String[];
+  animals = ['dog', 'cat'];
+
+   randAnimal = this.animals[1];
 }
